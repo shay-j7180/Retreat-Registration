@@ -1,12 +1,14 @@
 body {
-  background: rgb(244, 181, 65);
+  background-image: url('fallpic.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 .container {
   max-width: 600px;
   margin: 3em auto;
-  background: rgb(245, 231, 205);
+  background: rgba(255, 255, 255, 0.9); /* white with 80% opacity */
   padding: 2em;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
